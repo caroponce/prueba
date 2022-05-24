@@ -1,0 +1,25 @@
+/* ESTO ES UN COMENTARIO */
+
+/* 
+selector {
+    propiedad: valor;
+}
+    */
+/* formas de q cada parrafo tenga distinto color:
+1 cascada (todas la p que estan dentro de section se ponen en color, el resto no.
+*/
+section p {
+    /* colores en ingles, en tgb, en rgba, en hsl, etc*/
+    color:crimson;  /*crimson(o cualquier color seria el valor*/
+}
+/*
+2 class*/   
+.paragraph-blue {color: crimson;
+    background-color: aqua;
+}
+/*
+3 ID*/
+#trabajos {background-color: green;
+    color: blueviolet;
+}
+/*especiaficidad - utilizar el class es lo mas recomdable*/
